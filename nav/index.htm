@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header id="header">
+    <nav class="nav">
+      <div class="nav-item">
+        <a href="#">Home</a>
+      </div>
+      <div class="nav-item">
+        <a href="#">Work</a>
+        <div class="dropdown-menu">
+          <div class="wrapper">
+            <a href="#">Child 1</a>
+            <div class="menu-child">
+              <a href="#">Item 2</a>
+              <a href="#">Item 3</a>
+            </div>
+          </div>
+          <div class="wrapper">
+            <a href="#">Child 2</a>
+            <div class="menu-child">
+              <a href="#">Item 4</a>
+              <a href="#">Item 5</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a href="#">Contact</a>
+        <div class="dropdown-menu">
+          <a href="#">Item5</a>
+          <a href="#">Item6</a>
+          <a href="#">Item7</a>
+          <a href="#">Item8</a>
+        </div>
+      </div>
+      <div class="nav-item">
+        <a href="#">About</a>
+      </div>
+    </nav>
+  </header>
+  <label for="toggle" id="toggle-menu"><a href="#">X</a></label>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $('#toggle-menu').click(function () {
+      $('#header').toggleClass("show");
+    });
+  </script>
+</body>
+
+</html>
