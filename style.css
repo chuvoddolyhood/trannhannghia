@@ -8,16 +8,17 @@
     height: 8vh;
     margin: 0; /*auto*/
     display: flex;
-    background-color: rgb(236, 236, 236);
+    background-color: #ebeaec;
+    position: fixed;
   }
 
   .logo{
-    margin: 30px;
+    margin: 25px 0 0 30px;
   }
 
   .logo img{
-    height: 58px; 
-    width: 58px;
+    height: 60px; 
+    width: 60px;
   }
   
   .nav {
@@ -113,3 +114,31 @@
       visibility: visible;
     }
   }
+
+/* ==============================BODY===========================*/
+
+.about{
+  background-color: #f0eff0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+.about .img_about img{
+  height: 250px;
+  width: 250px;
+  margin: 30vh 0 0 15vw;
+}
+
+.about .text_about {
+  margin: 30vh 0 0 5vw;
+}
+
+
+
+
+.studio{
+  background-color: rgb(80, 255, 203);
+  height: 100vh;
+  width: 100%;
+}
