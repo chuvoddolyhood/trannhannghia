@@ -19,50 +19,49 @@
 
 <body>
     <header id="header">
+        <div class="logo">
+            <a href="#" title="HOME">
+                <img src="image/logo2020_web.png" alt="logo">
+            </a>
+        </div>
         <nav class="nav">
-          <div class="nav-item">
-            <a href="#">Home</a>
-          </div>
-          <div class="nav-item">
-            <a href="#">Work</a>
-            <div class="dropdown-menu">
-              <div class="wrapper">
-                <a href="#">Child 1</a>
-                <div class="menu-child">
-                  <a href="#">Item 2</a>
-                  <a href="#">Item 3</a>
-                </div>
-              </div>
-              <div class="wrapper">
-                <a href="#">Child 2</a>
-                <div class="menu-child">
-                  <a href="#">Item 4</a>
-                  <a href="#">Item 5</a>
-                </div>
-              </div>
+            <div class="nav-item">
+                <a href="#">Home</a>
             </div>
-          </div>
-          <div class="nav-item">
-            <a href="#">Contact</a>
-            <div class="dropdown-menu">
-              <a href="#">Item5</a>
-              <a href="#">Item6</a>
-              <a href="#">Item7</a>
-              <a href="#">Item8</a>
+            <div class="nav-item">
+                <a href="#">Studio</a>
+                <div class="dropdown-menu">
+                    <div class="wrapper">
+                        <a href="#">Media</a>
+                        <div class="menu-child">
+                            <a href="#">Photography</a>
+                            <a href="#">Videography</a>
+                        </div>
+                    </div>
+                    <div class="wrapper">
+                        <a href="#">Programming</a>
+                        <div class="menu-child">
+                            <a href="#">Java</a>
+                            <a href="#">Android</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="nav-item">
-            <a href="#">About</a>
-          </div>
+            <div class="nav-item">
+                <a href="#">Contact</a>
+            </div>
+            <div class="nav-item">
+                <a href="#">About</a>
+            </div>
         </nav>
-      </header>
-      <label for="toggle" id="toggle-menu"><a href="#">X</a></label>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-      <script>
+    </header>
+    <label for="toggle" id="toggle-menu"><a href="#"><i class="fas fa-bars"></i></a></label>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
         $('#toggle-menu').click(function () {
-          $('#header').toggleClass("show");
+            $('#header').toggleClass("show");
         });
-      </script>
+    </script>
 </body>
 
 </html>
