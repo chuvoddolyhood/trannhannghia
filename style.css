@@ -86,34 +86,6 @@
     visibility: hidden;
   }
   
-  @media screen and (max-width: 898px) {
-    header {
-      position: absolute;
-      width: 100vw;
-      top: 0;
-      left: 0;
-      height: 100vh;
-      display: none;
-    }
-    header.show {
-      display: block;
-    }
-    .logo img{
-      margin: 0 0 0 34vw;
-    }
-    .nav {
-      height: 100%;
-      margin: 0 0 0 43vw;
-      display: block;
-    }
-    .dropdown-menu {
-      position: relative !important;
-    }
-    #toggle-menu {
-      opacity: 1;
-      visibility: visible;
-    }
-  }
 
 /* ==============================BODY===========================*/
 
@@ -127,12 +99,50 @@
 .about .img_about img{
   height: 250px;
   width: 250px;
-  margin: 30vh 0 0 15vw;
+  margin: 30vh 0 0 20vw;
 }
 
 .about .text_about {
-  margin: 30vh 0 0 5vw;
+  margin: 35vh 0 0 5vw;
 }
+
+.name_about{
+  font-family: 'Alata', sans-serif;
+  color: #0c0908;
+  font-size: 50px;
+}
+
+.text_about p{
+  font-family: 'Alata', sans-serif;
+  color: #9a9a9a;
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+.icon_social{
+  margin: 25px 0 0 0;
+  display: flex;
+}
+
+.icon_social a{
+  margin: 0 20px 0 0;
+}
+
+.icon_social i{
+  font-size: 25px;
+  color: #9a9a9a;
+}
+
+.icon_social i:hover{
+  font-size: 25px;
+  color: #e9d83e;
+}
+
+
+
+
+
+
 
 
 
@@ -141,4 +151,51 @@
   background-color: rgb(80, 255, 203);
   height: 100vh;
   width: 100%;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 898px) {
+  header {
+    position: absolute;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    display: none;
+  }
+  header.show {
+    display: block;
+  }
+  .logo img{
+    margin: 0 0 0 34vw;
+  }
+  .nav {
+    height: 100%;
+    margin: 0 0 0 43vw;
+    display: block;
+  }
+  .dropdown-menu {
+    position: relative !important;
+  }
+  #toggle-menu {
+    opacity: 1;
+    visibility: visible;
+  }
+
+/* ==============================BODY===========================*/
+
+/* =============ABOUT==========*/
+.about .img_about img{
+  height: 200px;
+  width: 200px;
+  margin: 30vh 0 0 20vw;
+}
+
 }
