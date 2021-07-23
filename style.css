@@ -192,10 +192,44 @@
 /* ==============================BODY===========================*/
 
 /* =============ABOUT==========*/
-.about .img_about img{
-  height: 200px;
-  width: 200px;
-  margin: 30vh 0 0 20vw;
-}
+  .about{
+    display: block;
+    height: 50vh;
+  }
+
+  .about .img_about img{
+    height: 100px;
+    width: 100px;
+    margin: 15vh 0 0 35vw;
+  }
+
+  .about .text_about {
+    margin: 0;
+  }
+
+  .name_about{
+    font-family: 'Alata', sans-serif;
+    color: #0c0908;
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  .text_about p{
+    font-family: 'Alata', sans-serif;
+    color: #9a9a9a;
+    font-size: 10px;
+    margin-top: 8px;
+    text-align: center;
+    padding: 0 81px;
+  }
+  
+  .icon_social{
+    margin: 10px 0 0 90px;
+    display: flex;
+  }
+
+  .icon_social i{
+    font-size: 15px;
+  }
 
 }
