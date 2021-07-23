@@ -203,13 +203,13 @@
 /* =============HOME==========*/
   #home{
     display: block;
-    height: 50vh;
+    height: 100vh;
   }
 
   #home .img_home img{
-    height: 100px;
-    width: 100px;
-    margin: 10vh 0 0 37vw;
+    height: 200px;
+    width: 200px;
+    margin: 30vh 0 0 24vw;
   }
 
   #home .text_home {
@@ -219,17 +219,17 @@
   .name_home{
     font-family: 'Alata', sans-serif;
     color: #0c0908;
-    font-size: 27px;
+    font-size: 33px;
     text-align: center;
   }
   
   .text_home p{
     font-family: 'Alata', sans-serif;
     color: #9a9a9a;
-    font-size: 12px;
+    font-size: 13px;
     margin-top: 8px;
     text-align: center;
-    padding: 0 22vw;
+    padding: 0 14vw;
   }
   
   .icon_social{
@@ -250,7 +250,7 @@
   #about img{
     height: 300px;
     width: 180px;
-    margin: 3vh 0 0 27vw;
+    margin: 5vh 0 0 27vw;
   }
   
   .language_about{
@@ -260,7 +260,7 @@
   .language_about div{
     padding: 1vh 15vw;
     font-family: 'Alata', sans-serif;
-    font-size: 11px;
+    font-size: 12px;
     text-align: center;
   }
 }
