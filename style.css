@@ -156,12 +156,19 @@
 }
 
 .language_about{
-  margin: 25vh 0 0 0;
+  margin: 18vh 0 0 0;
+}
+
+.language_about h1{
+  padding: 2vh 0 0 5vw;
+  font-family: 'Alata', sans-serif;
+  font-size: 70px;
 }
 
 .language_about div{
   padding: 2vh 10vw 2vh 5vw;
   font-family: 'Alata', sans-serif;
+  text-align: justify;
 }
 
 
@@ -209,7 +216,7 @@
   #home .img_home img{
     height: 200px;
     width: 200px;
-    margin: 30vh 0 0 24vw;
+    margin: 27vh 0 0 24vw;
   }
 
   #home .text_home {
@@ -250,17 +257,23 @@
   #about img{
     height: 300px;
     width: 180px;
-    margin: 5vh 0 0 27vw;
+    margin: 3vh 0 0 27vw;
   }
   
   .language_about{
     margin: 0;
   }
+
+  .language_about h1{
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    font-size: 30px;
+    padding: 0;
+  }
   
   .language_about div{
     padding: 1vh 15vw;
-    font-family: 'Alata', sans-serif;
-    font-size: 12px;
-    text-align: center;
+    font-size: 11px;
   }
+
 }
