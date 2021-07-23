@@ -146,15 +146,23 @@
   background-color: #ebeaec;
   height: 100vh;
   width: 100%;
+  display: flex;
 }
 
 #about img{
-  height: 500px;
-  width: 300px;
-  margin: 5vh 0 0 20vw;
+  height: 600px;
+  width: 360px;
+  margin: 13vh 0 0 10vw;
 }
 
+.language_about{
+  margin: 25vh 0 0 0;
+}
 
+.language_about div{
+  padding: 2vh 10vw 2vh 5vw;
+  font-family: 'Alata', sans-serif;
+}
 
 
 
@@ -233,4 +241,26 @@
     font-size: 15px;
   }
 
+
+  /* =============ABOUT==========*/
+  #about{
+    display: block;
+  }
+
+  #about img{
+    height: 300px;
+    width: 180px;
+    margin: 3vh 0 0 27vw;
+  }
+  
+  .language_about{
+    margin: 0;
+  }
+  
+  .language_about div{
+    padding: 1vh 15vw;
+    font-family: 'Alata', sans-serif;
+    font-size: 11px;
+    text-align: center;
+  }
 }
