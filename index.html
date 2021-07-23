@@ -20,13 +20,13 @@
 <body>
     <header id="header">
         <div class="logo">
-            <a href="#" title="HOME">
+            <a href="#home" title="HOME">
                 <img src="image/logo2020_web.png" alt="logo">
             </a>
         </div>
         <nav class="nav">
             <div class="nav-item">
-                <a href="#">About</a>
+                <a href="#about">About</a>
             </div>
             <div class="nav-item">
                 <a href="#">Studio</a>
@@ -69,7 +69,7 @@
             </div>
         </nav>
     </header>
-    <label for="toggle" id="toggle-menu"><a href="#"><i class="fas fa-bars"></i></a></label>
+    <label for="toggle" id="toggle-menu"><a href="#"><i class="fas fa-bars" style="font-size: 25px;"></i></a></label>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
         $('#toggle-menu').click(function () {
@@ -78,12 +78,12 @@
     </script>
 
 
-    <div class="about">
-        <div class="img_about">
+    <div id="home">
+        <div class="img_home">
             <img src="image/nghia_about.png">
         </div>
-        <div class="text_about">
-            <h1 class="name_about">Tran Nhan Nghia</h1>
+        <div class="text_home">
+            <h1 class="name_home">Tran Nhan Nghia</h1>
             <p>IT Student. Mobile App Intern. Content Creator. Co-founder.</p>
             <div class="icon_social">
                 <a href="https://www.facebook.com/nhannghia.tran.240120/">
@@ -108,8 +108,23 @@
             </div>
         </div>
     </div>
-    <div class="studio">
-
+    <div id="about">
+        <img src="image/about.jpg"/>
+        <div class="language_about">
+            <div class="vietnamese">Xin chào. Tôi đang là sinh viên ngành Kỹ thuật phần mềm của trường Đại học Cần
+                Thơ. Hiện là thực tập sinh của một công ty công nghệ trên cùng địa bàn. Tôi cũng có vai trò như
+                là một nhà thiết kế nghiệp dư, biên tập video, nhà sáng tạo nội dung của studio cá nhân. Bên cạnh đó
+                tôi còn là đồng sáng lập cũng như trưởng nhóm công nghệ sáng tạo của một start-up.</div>
+            <div class="english">Hi guys. My major is Software Engineering in Cantho University and currently I'm a
+                mobile app development intern in the same area. I also work as an amateur designer, video editor and
+                content creator for personal studio. Besides, I am also the co-founder as well as creative
+                technology team leader of a start-up.</div>
+            <div class="japanese">
+                こんにちは。私の専攻はカントー大学のソフトウェアエンジニアリングで、現在は同じ分野のモバイルアプリ開発インターンです。
+                また、アマチュアデザイナー、ビデオエディター、パーソナルスタジオのコンテンツクリエーターとしても働いています。
+                その上、私はスタートアップの共同創設者であり、クリエイティブテクノロジーチームのリーダーでもあります。
+            </div>
+        </div>
     </div>
 
 

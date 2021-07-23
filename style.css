@@ -30,6 +30,7 @@
   .nav a{
       font-family: 'Alata', sans-serif;
       text-decoration: none;
+      color: black;
   }
   
   .nav-item {
@@ -89,30 +90,31 @@
 
 /* ==============================BODY===========================*/
 
-.about{
+/* =============HOME==========*/
+#home{
   background-color: #f0eff0;
   height: 100vh;
   width: 100%;
   display: flex;
 }
 
-.about .img_about img{
+#home .img_home img{
   height: 250px;
   width: 250px;
   margin: 30vh 0 0 20vw;
 }
 
-.about .text_about {
+#home .text_home {
   margin: 35vh 0 0 5vw;
 }
 
-.name_about{
+.name_home{
   font-family: 'Alata', sans-serif;
   color: #0c0908;
   font-size: 50px;
 }
 
-.text_about p{
+.text_home p{
   font-family: 'Alata', sans-serif;
   color: #9a9a9a;
   font-size: 20px;
@@ -137,20 +139,19 @@
   font-size: 25px;
   color: #e9d83e;
 }
+/* =============THE END OF HOME==========*/
 
-
-
-
-
-
-
-
-
-
-.studio{
-  background-color: rgb(80, 255, 203);
+/* =============ABOUT==========*/
+#about{
+  background-color: #ebeaec;
   height: 100vh;
   width: 100%;
+}
+
+#about img{
+  height: 500px;
+  width: 300px;
+  margin: 5vh 0 0 20vw;
 }
 
 
@@ -191,30 +192,30 @@
 
 /* ==============================BODY===========================*/
 
-/* =============ABOUT==========*/
-  .about{
+/* =============HOME==========*/
+  #home{
     display: block;
     height: 50vh;
   }
 
-  .about .img_about img{
+  #home .img_home img{
     height: 100px;
     width: 100px;
     margin: 10vh 0 0 37vw;
   }
 
-  .about .text_about {
+  #home .text_home {
     margin: 0;
   }
 
-  .name_about{
+  .name_home{
     font-family: 'Alata', sans-serif;
     color: #0c0908;
     font-size: 27px;
     text-align: center;
   }
   
-  .text_about p{
+  .text_home p{
     font-family: 'Alata', sans-serif;
     color: #9a9a9a;
     font-size: 12px;
