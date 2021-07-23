@@ -174,11 +174,106 @@
   font-family: 'Alata', sans-serif;
   text-align: justify;
 }
+/* =============THE END OF ABOUT==========*/
+
+/* =============SKILLS==========*/
+#skills{
+  background-color: #ebeaec;
+  height: 150vh;
+  width: 100%;
+  display: flex;
+}
+
+.text_skills{
+  margin: 10vh 3vw 0 10vw;
+}
+
+.text_skills h1{
+  font-family: 'Alata', sans-serif;
+  font-size: 50px;
+  color: #317e05;
+}
+
+.text_skills p{
+  font-family: 'Alata', sans-serif;
+  font-size: 15px;
+  text-align: justify;
+  padding: 1vh 0;
+  color: #777777;
+}
+
+#skills img{
+  height: 480px;
+  width: 360px;
+  margin: 20vh 10vw 0 0;
+}
+
+/* ==================skills_bar==================*/
+.skills_model{
+  width: 100%;
+  max-width: 790px;
+  /* padding: 0 20px; */
+}
+
+.skill-name{
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 5vh 0 0 0;
+  font-family: 'Alata', sans-serif;
+}
+
+.skill-bar{
+  height: 3px;
+  background: #cacaca;
+  border-radius: 8px;
+}
+
+.skill-per{
+  height: 3px;
+  background-color: #317e05;
+  border-radius: 8px;
+  width: 0;
+  transition: 1s linear;
+  position: relative;
+}
+
+.skill-per::before{
+  content: attr(per);
+  position: absolute;
+  padding: 4px 6px;
+  background-color: #000;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 4px;
+  top: -35px;
+  right: 0;
+  transform: translateX(50%);
+}
+
+.skill-per::after{
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  top: -16px;
+  right: 0;
+  transform: translateX(50%) rotate(45deg);
+  border-radius: 2px;
+}
+/* ==================THE END skills_bar==================*/
 
 
 
 
 
+
+
+
+
+
+/* =============THE END OF SKILLS==========*/
 
 
 @media screen and (max-width: 950px) {
