@@ -132,24 +132,27 @@
     </div>
 
     <div id="skills">
-        <div class="text_skills">
+        <div class="title_skills">
+            <img src="image/leaf_skills.png">
             <h1>Skills</h1>
-            <p>Thành thật, tôi rất đam mê xây dựng cũng như thiết kế giao diện người dùng cho ứng dụng di
-                động. Tôi hiện đang nghiên cứu về ứng dụng dành cho thiết bị di động dựa trên nền tảng Android và xây
-                dựng
-                Ứng dụng Java hoặc .NET Desktop. Hơn nữa, tôi có thể hiểu được ngôn ngữ tiếng Anh, tiếng Nhật và có thể
-                đọc tài
-                liệu công nghệ chi tiết của nó. Ngoài ra, tôi có thể sử dụng thành thạo các phần mềm của Adobe
-                như: Photoshop, Premiere, Lightroom, After Effect, ...</p>
-            <p>To be honest, I'm a sucker for building as well as design UI for mobile application. I’m currently
-                learning mobile app based on Android platform and building Java or .NET Desktop Application.
-                Furthermore, I can comprehend English and Japanese language and its detailed technology documentation.
-                In addition, I can also use Adobe software proficiently such as: Photoshop, Premiere, Lightroom, After
-                Effect, ...</p>
-            <p>正直なところ、私はモバイルアプリケーションのUIの構築と設計に夢中です。私は現在、Androidプラットフォームに基づくモバイルアプリを学び、Javaまたは.NETデスクトップアプリケーションを構築しています。さらに、私は英語と日本語とその詳細な技術文書を理解することができます。さらに、Photoshop、Premiere、Lightroom、After
-                Effects、...などのAdobeソフトウェアを上手に使用することもできます。</p>
-            
-
+        </div>
+        <div class="content_skills">
+            <div class="text_skills">
+                <p>Thành thật, tôi rất đam mê xây dựng cũng như thiết kế giao diện người dùng cho ứng dụng di
+                    động. Tôi hiện đang nghiên cứu về ứng dụng dành cho thiết bị di động dựa trên nền tảng Android và xây
+                    dựng
+                    Ứng dụng Java hoặc .NET Desktop. Hơn nữa, tôi có thể hiểu được ngôn ngữ tiếng Anh, tiếng Nhật và có thể
+                    đọc tài
+                    liệu công nghệ chi tiết của nó. Ngoài ra, tôi có thể sử dụng thành thạo các phần mềm của Adobe
+                    như: Photoshop, Premiere, Lightroom, After Effect, ...</p>
+                <p>To be honest, I'm a sucker for building as well as design UI for mobile application. I’m currently
+                    learning mobile app based on Android platform and building Java or .NET Desktop Application.
+                    Furthermore, I can comprehend English and Japanese language and its detailed technology documentation.
+                    In addition, I can also use Adobe software proficiently such as: Photoshop, Premiere, Lightroom, After
+                    Effect, ...</p>
+                <p>正直なところ、私はモバイルアプリケーションのUIの構築と設計に夢中です。私は現在、Androidプラットフォームに基づくモバイルアプリを学び、Javaまたは.NETデスクトップアプリケーションを構築しています。さらに、私は英語と日本語とその詳細な技術文書を理解することができます。さらに、Photoshop、Premiere、Lightroom、After
+                    Effects、...などのAdobeソフトウェアを上手に使用することもできます。</p>
+            </div>
             <div class="skills_model">
                 <div class="skill">
                     <div class="skill-name">Android</div>
@@ -185,27 +188,36 @@
                         <div class="skill-per" per="10"></div>
                     </div>
                 </div>
+                <div class="skill">
+                    <div class="skill-name">Photoshop / Lightroom</div>
+                    <div class="skill-bar">
+                        <div class="skill-per" per="75"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">Premiere / After Effect</div>
+                    <div class="skill-bar">
+                        <div class="skill-per" per="70"></div>
+                    </div>
+                </div>
             </div>
-
+            <script>
+                $('.skill-per').each(function(){
+                  var $this = $(this);
+                  var per = $this.attr('per');
+                  $this.css("width",per+'%');
+                  $({animatedValue: 0}).animate({animatedValue: per},{
+                    duration: 1000,
+                    step: function(){
+                      $this.attr('per', Math.floor(this.animatedValue) + '%');
+                    },
+                    complete: function(){
+                      $this.attr('per', Math.floor(this.animatedValue) + '%');
+                    }
+                  });
+                });
+            </script>
         </div>
-        <img src="image/a3.jpg" />
-
-        <script>
-            $('.skill-per').each(function(){
-              var $this = $(this);
-              var per = $this.attr('per');
-              $this.css("width",per+'%');
-              $({animatedValue: 0}).animate({animatedValue: per},{
-                duration: 1000,
-                step: function(){
-                  $this.attr('per', Math.floor(this.animatedValue) + '%');
-                },
-                complete: function(){
-                  $this.attr('per', Math.floor(this.animatedValue) + '%');
-                }
-              });
-            });
-        </script>
     </div>
 </body>
 

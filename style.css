@@ -179,19 +179,34 @@
 /* =============SKILLS==========*/
 #skills{
   background-color: #ebeaec;
-  height: 150vh;
+  height: 100vh;
   width: 100%;
+}
+
+.title_skills{
+  display: flex;
+}
+
+.title_skills img{
+  height: 150px;
+  width: 150px;
+  margin: 10vh 0 0 10vw;
+}
+
+.title_skills h1{
+  font-family: 'Alata', sans-serif;
+  font-size: 70px;
+  color: #317e05;
+  margin: 15vh 0 0 1vw;
+}
+
+.content_skills{
   display: flex;
 }
 
 .text_skills{
-  margin: 10vh 3vw 0 10vw;
-}
-
-.text_skills h1{
-  font-family: 'Alata', sans-serif;
-  font-size: 50px;
-  color: #317e05;
+  margin: 3vh 3vw 0 10vw;
+  width: 80vw;
 }
 
 .text_skills p{
@@ -202,17 +217,12 @@
   color: #777777;
 }
 
-#skills img{
-  height: 480px;
-  width: 360px;
-  margin: 20vh 10vw 0 0;
-}
 
 /* ==================skills_bar==================*/
 .skills_model{
   width: 100%;
   max-width: 790px;
-  /* padding: 0 20px; */
+  padding: 0 10vw 0 0;
 }
 
 .skill-name{
@@ -372,7 +382,7 @@
     text-align: center;
     font-family: 'Alata', sans-serif;
     font-size: 30px;
-    padding-top: 3vh;
+    padding: 3vh 0 0 0;
   }
   
   .language_about div{
@@ -380,4 +390,63 @@
     font-size: 11px;
   }
 
+  /* =============SKILLS==========*/
+  #skills{
+    height: 120vh;
+  }
+
+  .title_skills img{
+    height: 70px;
+    width: 70px;
+    margin: 4vh 0 0 28vw;
+  }
+  
+  .title_skills h1{
+    font-family: 'Alata', sans-serif;
+    font-size: 40px;
+    color: #317e05;
+    margin: 5vh 0 0 1vw;
+  }
+
+  .content_skills{
+    display: block;
+  }
+
+  .text_skills{
+    margin: 2vh 0 0 0;
+    width: 100vw;
+  }
+
+  .text_skills p{
+    padding: 1vh 15vw;
+    font-size: 11px;
+  }
+
+  .skills_model{
+    width: 70%;
+    padding: 0 15vw;
+  }
+
+  .skill-name{
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 4vh 0 0 0;
+    font-family: 'Alata', sans-serif;
+  }
+  
+  .skill-bar{
+    height: 2px;
+    background: #cacaca;
+    border-radius: 8px;
+  }
+  
+  .skill-per{
+    height: 2px;
+    background-color: #317e05;
+    border-radius: 8px;
+    width: 0;
+    transition: 1s linear;
+    position: relative;
+  }
 }
