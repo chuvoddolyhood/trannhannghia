@@ -275,6 +275,28 @@
 /* ==================THE END skills_bar==================*/
 
 
+/* ==================Studio==================*/
+/* #studio{
+  height: 100vh;
+  width: 100%;
+  background-color: #f0eff0;
+}
+
+#studio img{
+  height: 640px;
+  width: 960px;
+  padding: 10vh 0 0 20vw;
+}
+
+.text_media_studio{
+  margin: -85vh 0 0 50vw;
+}
+
+.text_tech_studio{
+  margin: 45vh 0 0 20vw;
+} */
+
+/* ==================THE END OF Studio==================*/
 
 
 
@@ -283,7 +305,114 @@
 
 
 
-/* =============THE END OF SKILLS==========*/
+
+
+
+
+
+
+
+/* ==================Contact==================*/
+#contact{
+  height: 40vh;
+  width: 100%;
+  background-image: url("image/coffee_contact.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#contact h1{
+  font-family: 'Alata', sans-serif;
+  padding: 5vh 0 0 10vw;
+  font-size: 50px;
+}
+
+.text_contact{
+  display: flex;
+}
+
+.forwork{
+  margin: 3vh 0 0 10vw;
+  width: 25vw;
+}
+
+.feedback{
+  margin: 3vh 0 0 3vw;
+  width: 25vw;
+}
+
+.text_contact h3{
+  font-family: 'Alata', sans-serif;
+  font-size: 22px;
+  margin-bottom: 1vh;
+}
+
+.text_contact p{
+  font-family: 'Alata', sans-serif;
+  font-size: 14px;
+  color: #777777;
+}
+
+.text_contact a{
+  text-decoration: none;
+  color: #000000;
+}
+
+
+
+.bar_power{
+  height: 5vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+}
+
+.bar_power p{
+  color: white;
+  margin-left: 40vw;
+  line-height: 5vh;
+  font-family: 'Alata', sans-serif;
+  font-size: 10px;
+}
+
+.icon_social_contact{
+  margin: 0 0 0 30vw;
+  display: flex;
+}
+
+.icon_social_contact a{
+  margin: 0 1vw 0 0;
+  line-height: 5vh;
+}
+
+.icon_social_contact i{
+  font-size: 17px;
+  color: #ffffff;
+}
+
+.icon_social_contact i:hover{
+  color: #f1e20c;
+}
+
+/* ==================THE END OF Contact==================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 950px) {
@@ -448,5 +577,32 @@
     width: 0;
     transition: 1s linear;
     position: relative;
+  }
+
+
+
+
+
+
+  /* =========contact==============*/
+  #contact{
+    height: 20vh;
+  }
+  
+  #contact h1{
+    padding: 2vh 0 0 10vw;
+    font-size: 20px;
+  }
+
+  .text_contact{
+    display: block;
+  }
+
+  .text_contact h3{
+    font-size: 15px;
+  }
+
+  .text_contact p{
+    font-size: 12px;
   }
 }
