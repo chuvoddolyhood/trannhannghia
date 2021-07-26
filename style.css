@@ -591,18 +591,43 @@
   
   #contact h1{
     padding: 2vh 0 0 10vw;
-    font-size: 20px;
+    font-size: 18px;
   }
 
-  .text_contact{
-    display: block;
+  .text_contact div{
+    margin: 0 0 0 10vw;
   }
 
   .text_contact h3{
-    font-size: 15px;
+    font-size: 10px;
+    margin-bottom: 0;
   }
 
   .text_contact p{
-    font-size: 12px;
+    font-size: 8px;
   }
+
+  .feedback{
+    width: 35vw;
+  }
+
+    
+  .bar_power p{
+    margin-left: 10vw;
+    font-size: 7px;
+  }
+  
+  .icon_social_contact{
+    margin: 0 0 0 20vw;
+    display: flex;
+  }
+  
+  .icon_social_contact a{
+    margin: 0 2vw 0 0;
+  }
+  
+  .icon_social_contact i{
+    font-size: 10px;
+  }
+
 }
