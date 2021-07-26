@@ -591,7 +591,7 @@
   
   #contact h1{
     padding: 2vh 0 0 10vw;
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .text_contact div{
@@ -600,7 +600,7 @@
 
   .text_contact h3{
     font-size: 10px;
-    margin-bottom: 0;
+    margin: 1vh 0 0 0;
   }
 
   .text_contact p{
