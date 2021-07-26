@@ -299,7 +299,98 @@
 /* ==================THE END OF Studio==================*/
 
 
+/* ==================Travel==================*/
+#travel{
+  height: 170vh;
+  width: 100%;
+  display: flex;
+  background-image: url("image/background_final_travel.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+.img_travel_1{
+  /* 167/200 */
+  width: 167px;
+  height: 200px;
+  margin: 25vh 0 0 10vw;
+}
+
+.img_travel_2{
+  /* 11/16 */
+  height: 320px;
+  width: 220px;
+  margin: 70vh 0 0 10vw;
+}
+
+.img_travel_3{
+  /* 83/200 */
+  width: 124px;
+  height: 300px;
+  margin: 55vh 10vw 0 0;
+}
+
+.text_travel{
+  margin: 20vh 0 0 2vw;
+}
+
+.text_travel h1{
+  font-family: 'Alata', sans-serif;
+  font-size: 70px;
+}
+
+.text_travel p{
+  font-family: 'Alata', sans-serif;
+  font-size: 19px;
+  padding: 3vh 8vw 0 0;
+}
+
+/* Button */
+.button_travel {
+  display: inline-block;
+  border-radius: 0;
+  border-style: solid;
+  background-color: #f6ab01;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  width: 120px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 8vh 0 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+}
+
+.button_travel span{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button_travel span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button_travel:hover span {
+ padding-right: 25px;
+}
+
+.button_travel:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/* THE END of Button */
+
+/* ==================THE END OF Travel==================*/
 
 
 
@@ -317,7 +408,6 @@
   height: 40vh;
   width: 100%;
   background-image: url("image/coffee_contact.jpg");
-  background-repeat: no-repeat;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -579,8 +669,56 @@
     position: relative;
   }
 
+  /* =========Travel============ */
+  #travel{
+    height: 100vh;
+  }
 
+  .img_travel_1{
+    /* 167/200 */
+    width: 83px;
+    height: 100px;
+    margin: 15vh 0 0 5vw;
+  }
+  
+  .img_travel_2{
+    /* 11/16 */
+    height: 160px;
+    width: 110px;
+    margin: 50vh 0 0 5vw;
+  }
+  
+  .img_travel_3{
+    /* 83/200 */
+    width: 83px;
+    height: 200px;
+    margin: 45vh 5vw 0 0;
+  }
 
+  .text_travel{
+    margin: 5vh 0 0 -7vw;
+  }
+  
+  .text_travel h1{
+    font-family: 'Alata', sans-serif;
+    font-size: 35px;
+  }
+  
+  .text_travel p{
+    font-family: 'Alata', sans-serif;
+    font-size: 10px;
+    padding: 3vh 0 0 0;
+    text-align: justify;
+  }
+
+  /* Button */
+  .button_travel {
+    font-size: 10px;
+    padding: 8px;
+    width: 70px;
+    margin: 3vh 0 0 0;
+  }
+  /* THE END of Button */
 
 
 
