@@ -340,7 +340,7 @@
   float: left;
 }
  
-.image {
+.image_container {
   opacity: 1;
   display: block;
   width: 100%;
@@ -371,7 +371,7 @@
   cursor: pointer;
 }
  
-.text {
+.text_container {
   background-color: red;
   color: white;
   font-size: 18px;
@@ -589,6 +589,20 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 950px) {
   header {
     position: absolute;
@@ -759,8 +773,8 @@
   }
 
   .intro_project img{
-    height: 150px;
-    width: 150px;
+    height: 170px;
+    width: 170px;
     margin: 5vh 0 0 0;
   }
 
@@ -769,7 +783,7 @@
   }
 
   .text_project h1{
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .text_project{
@@ -778,15 +792,35 @@
 
   /* -----------product of project-------- */
   .product_project{
-    margin: 5vh 0 0 10vw;
+    margin: 5vh 0 0 0;
   }
 
   .container {
-    width: 100%;
+    width: 65%;
+    margin: 0 0 2vh 18vw;
+  }
+
+  .readmore {
+    top: 50%;
+    left: 50%;
+  }
+   
+  .text_container {
+    font-size: 12px;
+    padding: 16px 32px;
   }
   
   
-  
+
+
+
+
+
+
+
+
+
+
 
   /* =========Travel============ */
   #travel{
