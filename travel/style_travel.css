@@ -1,0 +1,26 @@
+*{
+  background-color: #f8e6e6;
+  margin: 0;
+  padding: 0;
+}
+
+.setting{
+  padding: 10vh 0 0 40vw;
+}
+
+p{
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  font-style: italic;
+}
+
+@media screen and (max-width: 950px) {
+  .setting{
+    padding: 15vh 0 0 13vw;
+  }
+
+  p{
+    font-size: 30px;
+  }
+}
